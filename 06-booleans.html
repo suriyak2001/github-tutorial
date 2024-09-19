@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Booleans
+  </title>
+</head>
+
+<body>
+
+  <script>
+
+    let birthYear = 2007;
+    const now = new Date().getFullYear();
+    const age = now - birthYear;
+    console.log(age);
+    
+
+    if (age >= 18) {
+      console.log(`can drive`);
+    } else if (age >= 17) {
+      console.log(`almost there`);
+    } else {
+      console.log(`you can't drive`);
+    }
+  </script>
+
+</body>
+
+</html>
